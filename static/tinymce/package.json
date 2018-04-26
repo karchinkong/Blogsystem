@@ -1,0 +1,25 @@
+{
+  "name": "tinymce",
+  "version": "4.7.11",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinymce/tinymce-dist.git"
+  },
+  "description": "Web based JavaScript HTML WYSIWYG editor control.",
+  "author": "Ephox Corporation",
+  "main": "tinymce.js",
+  "license": "LGPL-2.1",
+  "keywords": [
+    "editor",
+    "wysiwyg",
+    "tinymce",
+    "richtext",
+    "javascript",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/tinymce/tinymce/issues"
+  },
+  "_from": "tinymce@4.7.11",
+  "_resolved": "http://registry.npm.taobao.org/tinymce/download/tinymce-4.7.11.tgz"
+}

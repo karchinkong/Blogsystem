@@ -1,0 +1,100 @@
+
+.verticleMiddle() {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+@subColor: #8590a6;
+
+.BlogsPublish-Wrap{
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    .BlogsPublish{
+        .verticleMiddle();
+        color: #000;
+        i{
+            font-size: 28px;
+            margin-right: 10px;
+        }
+    } 
+}
+.BlogsItem{
+    cursor: pointer;
+    margin-bottom: 10px;
+    .BlogsItem-Types{
+        color: @subColor;
+        margin-bottom: 8px;
+    }
+    .BlogsItem-Author{
+        margin-bottom: 14px;
+        .verticleMiddle();
+        .BlogsItem-Author-content{
+            margin-left: 10px;
+            .verticleMiddle();
+            h4{
+                font-size: 15px;
+            }
+            span{
+                font-size: 14px;
+                margin-left: 8px;
+                color: @subColor;
+            }
+        }
+    }
+    .BlogsItem-Title{
+        font-size: 18px;
+        color: #000;
+    }
+    .BlogsItem-ContentWrap{
+        margin-top: 9px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        .BlogsItem-Thumb{
+            width: 190px;
+            height: 105px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 4px;
+            img{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate3d(-50%, -50%, 0);
+            }
+        }
+        .BlogsItem-Content{
+            font-size: 15px;
+            display:-webkit-box;
+            -webkit-box-orient:vertical;
+            -webkit-line-clamp:2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.67;
+            color: #000;
+            &.BlogsItem-HasThumbContent{
+                width: 400px;
+                margin-left: 18px;
+            }
+        }
+    }
+    .BlogsItem-Controller{
+        margin-top: 14px;
+        .verticleMiddle();
+        & > div{
+            margin-right: 20px;
+            font-size: 14px;
+            color: @subColor;
+            span{
+                margin-left: 4px;
+            }
+        }
+    }
+}
