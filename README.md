@@ -12,9 +12,6 @@ Introduce: 该项目由 Vue + iView + Express + Mysql 搭建完成
            有建议的朋友也可以提一下...
 ```
 
-# blogs
-
-> A Vue.js project
 
 ## Build Setup
 
